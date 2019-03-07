@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 
+import com.google.firebase.database.annotations.NotNull;
+
 public class MainActivity extends AppCompatActivity {
 
     private NavigationView navigationView;
@@ -20,10 +22,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawable_Layout);
-
         RecyclerView postList = (RecyclerView) findViewById(R.id.postList);
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawable_Layout);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                UserMenuSelector(item);
+                return false;
+            }
+        });
 
+
+        private void UserMenuSelector(MenuItem item)
+        {
+            switch (item.getItemId())
+            {
+                case R.id.nav_profile:
+            }
+        }
 
     }
 }

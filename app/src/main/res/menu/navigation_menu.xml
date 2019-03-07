@@ -4,19 +4,19 @@
         android:id="@+id/nav_profile"
         android:title="Profile"
         android:icon="@drawable/profile_icon"
-android:iconTint="@color/colorPrimaryDark"
+
         />
 
     <item
         android:id="@+id/add_post"
         android:title="Add Post"
-        android:icon="@drawable/round_add_black_36dp"
+        android:icon="@drawable/add_post"
         />
 
     <item
         android:id="@+id/nav_home"
         android:title="Home"
-        android:icon="@drawable/round_home_black_36dp"
+        android:icon="@drawable/home"
         />
     <item
         android:id="@+id/nav_messages"
@@ -33,10 +33,5 @@ android:iconTint="@color/colorPrimaryDark"
         android:title="Logout"
         android:icon="@drawable/logout"
         />
-    <item
-        android:id="@+id/nav_xyz"
-        android:title="xyz"
 
-
-        />
 </menu>
