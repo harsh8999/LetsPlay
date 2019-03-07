@@ -33,5 +33,12 @@
         android:title="Logout"
         android:icon="@drawable/logout"
         />
+<<<<<<< HEAD
+=======
+    <item
+
+        android:id="@+id/nav_abc"
+        android:title="abc"
+>>>>>>> daebec35c71693a22bb577e70bd7aa29a3d0b847
 
 </menu>
