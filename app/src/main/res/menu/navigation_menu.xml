@@ -34,14 +34,10 @@ android:iconTint="@color/colorPrimaryDark"
         android:icon="@drawable/logout"
         />
     <item
-<<<<<<< HEAD
+
         android:id="@+id/nav_abc"
         android:title="abc"
-=======
-        android:id="@+id/nav_xyz"
-        android:title="xyz"
 
->>>>>>> 1836642d33fc4fdc2911e7b659156ba9318c7038
 
         />
 </menu>
